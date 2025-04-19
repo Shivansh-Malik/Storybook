@@ -2,11 +2,34 @@
 
 This project is a reusable and accessible **UI Component Library** built with **React**, **TypeScript**, and **Tailwind CSS**, and documented using **Storybook**. It includes interactive previews, documentation, and responsive theming support — perfect for scalable design systems.
 
+Folder Structure:
+.
+├── .storybook
+│   ├── main.js                   
+│   ├── preview.js                
+|   ├──vitest.setup.ts
+├── src
+│   ├── assets                    
+│   ├── components               
+│   ├── modal
+│   │   ├── Modal.tsx             
+│   │   └── Modal.stories.tsx     
+│   ├── typography
+│   │   ├── Typography.tsx        
+│   │   ├── Typography.types.ts
+|    |    └──  Typography.stories.tsx
+│   ├── textinput
+│   │   ├── TextInput.tsx         
+│   │   └── TextInput.stories.tsx 
+├── package.json                  
+├── README.md                     
+├── tailwind.config.js            
+└── tsconfig.json                
 
 ## Storybook Documentation
 
 **Live Preview on Chromatic**:  
-[Click here to view Storybook](https://main--your-chromatic-link.chromatic.com)
+[Click here to view Storybook](https://68040a99cb8b5fead39ae4d5-oqzlfrwqih.chromatic.com/)
 
 Each component in Storybook includes:
 
