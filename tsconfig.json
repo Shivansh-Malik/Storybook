@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "lib": ["dom", "esnext"],
+    "jsx": "react-jsx",         // For React 17+ JSX transform
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"],      // Adjust the path if your source code is in a different folder
+  "exclude": ["node_modules"]
+}
